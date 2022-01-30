@@ -6,7 +6,7 @@ class ClassComponent extends React.Component{
         
         return(
             <div>
-                <h1>Hello {this.props.nama}</h1>
+                <h1>Hello {this.props.nama}Selamat Datang</h1>
             </div>
 
         )
