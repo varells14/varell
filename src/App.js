@@ -1,17 +1,10 @@
-import React from "react";
-import ClassComponent from "./komponen";
-
-
-export default class komponen extends React.Component {
-
-render(){
-
+import './App.css';
+import Todo from "./todo/Todo";
+const App = () => {
   return (
-
-    <div>
-        <ClassComponent nama = "VARELL" />
+    <div className="App">
+      <Todo />
     </div>
   )
 }
-
-}
+export default App
