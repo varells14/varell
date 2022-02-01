@@ -3,9 +3,9 @@ import TodoList from "../todo-list/TodoList";
 
 const Todo = () => {
     const todos = [
-        {id: 1, title: 'Eat'},
-        {id: 2, title: 'Sleep'},
-        {id: 3, title: 'Code'},
+        {id: 1, title: 'Varell'},
+        {id: 2, title: 'Vincent'},
+        {id: 3, title: 'Vianda'},
     ]
 
     return(
